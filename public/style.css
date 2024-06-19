@@ -22,10 +22,12 @@ body {
 .board-input {
   height: 25px;
   width: 250px;
+  color: black;
 }
 
 .text {
   width: 250px;
+  color: black;
 }
 
 .button {
