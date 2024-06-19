@@ -1,10 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+PL:wght@100..400&display=swap');
+
 * {
   margin: 0px;
   padding: 0px;
+  color: white;
+  font-family: 'Playwrite PL'
+}
+
+form {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 body {
   padding: 10px;
+  background: linear-gradient(45deg, #8A2387, #E94057, #F27121);
+}
+
+.board-input {
+  height: 25px;
+  width: 250px;
+}
+
+.text {
+  width: 250px;
+}
+
+.button {
+  background: black;
+  cursor: pointer;
+  border-radius: 5px;
+
 }
 
 .replies {
